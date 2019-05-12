@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>CSS Animations</title>
+        <link rel="stylesheet" type="text/css" href="../CSSAnimations/style.css"/>
+       <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Monoton" rel="stylesheet">
+    
+    </head>
+    <body>
+        <div class="text">
+            <strong>WELCOME</strong>
+        </div>
+        <div class="button" onclick="blastOff()">
+           <strong>Blast Off</strong> 
+        </div>
+        <img src="rocket1.png" alt="Image of rocket" class="rocket">
+        <div class="platform"></div>
+        <style> /* transitional animation */
+            
+            
+            
+            .button:hover {
+                margin-top:5px;
+                cursor:pointer;
+                background-color:goldenrod;
+                              
+            }
+            
+            .rocket {
+                transition: transform 3s ease-out;
+            }
+            
+            .flying {
+                transform: translateY(-1000px) scale(0.1); /* translateY directional transition */ 
+            }
+        
+        </style>
+      
+         <script>    
+            
+            function blastOff () {
+                const rocket = document.querySelector('.rocket');
+                rocket.classList.add('flying');
+            }
+        
+        </script>
+    
+    
+    
+    
+    </body>
+
+
+</html>

@@ -1,0 +1,65 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+html {
+       background-color:rgb(118, 186, 118); 
+        font-family:'Lato', 'Arial', sans-serif;
+        font-weight:300;
+        font-size:20px;
+        
+        
+}
+
+.text {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:row;
+    flex-direction:row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-text-decoration:bold;
+    text-decoration:bold;
+    padding-top:35%;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing:1px;
+}
+
+
+
+
+.rocket {
+    position:fixed;
+    height:120px;
+    width: auto;
+    bottom:0px;
+    left:70%;
+    background-color:rgba(118, 186, 118, 0.97);
+        
+    
+}
+
+.button {
+ 
+    background-color:#0a520a;
+    position:absolute;
+    bottom:100px;
+    left:46%; /* in an effort to align the button underneath the Welcome sign */
+    margin:4px 2px;
+    border-radius:50%;
+    display:inline-block;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration:none;
+    font-size:15px;
+    font-family: 'Monoton', cursive;
+   
+}
